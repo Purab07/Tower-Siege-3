@@ -3,7 +3,7 @@ const World= Matter.World;
 const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 var speed;
-var score;
+var score = 0;
 
 function preload(){
     polygonImg = loadImage("polygon.png");
